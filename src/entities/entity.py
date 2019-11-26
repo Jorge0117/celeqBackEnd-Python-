@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-db_url = '10.90.85.116'
+db_url = 'localhost'
 db_name = 'celeq_data_base'
 db_user = 'admin'
 db_password = 'Adminsql$celeq'
